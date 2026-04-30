@@ -1,0 +1,14 @@
+{
+  "name": "wmt-labtest-project",
+  "version": "1.0.0",
+  "description": "Item Manager - Full Stack Application",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  }
+}
